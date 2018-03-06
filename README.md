@@ -12,10 +12,10 @@
 Troubleshouting:
   if web-side does not run
     add: 
-    '''
+   ```
       **<system.webServer>**
-        ''' **<directoryBrowse enabled="true"/>** '''
+         **<directoryBrowse enabled="true"/>** 
       **</system.webServer>**
-    '''
+    ```
     to _Web.config_
            
