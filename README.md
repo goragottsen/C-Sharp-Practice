@@ -6,12 +6,12 @@
 5) Link the menu control to the **sitemapdatasource** in _Design view_
 6) Remove the HomePage in the menu and let the child link be visible: 
 ```
-<asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" **ShowStartingNode ="false"**/>
+<asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode ="false"/>
 ```
 _(MasterPage.master)_
 7) Set the menu items to be  horizontal: 
 ```
-<asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" **Orientation="Horizontal"**/>  
+<asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"/>  
 ```
 _(MasterPage.master)_
 8) Use Autoformat to change the style
